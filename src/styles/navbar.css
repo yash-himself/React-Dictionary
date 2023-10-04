@@ -1,0 +1,42 @@
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 207, 179);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10vw;
+}
+h1 {
+  text-align: center;
+}
+.logo {
+  font-size: 25px;
+  color: rgb(255, 94, 0);
+  font-weight: 700;
+}
+a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: rgb(255, 94, 0);
+}
+
+.linkBox {
+  display: flex;
+  gap: 40px;
+}
+
+/* responsiveness for devices with less then 1030 pixels width  */
+
+@media screen and (max-width: 1030px) {
+  nav {
+    padding: 0px 5vw;
+  }
+  .linkBox {
+    gap: 3vw;
+  }
+}
